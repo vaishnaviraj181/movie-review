@@ -1,0 +1,81 @@
+/* Ensure the body and html take up the full height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Position the header at the top */
+header {
+    width: 100%;
+    text-align: center;
+    justify-content: right;
+    position: fixed; /* Makes the navbar stay at the top when scrolling */
+    top: 0;
+    right: 0px;
+    background-color: black; /* Adjust the color as needed */
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+/* Style the container within the header */
+header .container {
+    text-align: right;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Style the nav bar */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: flex;
+    right: 0px;
+    
+    color: #fff;
+    
+    padding: 10px 15px;
+    
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Adjust the container below the header */
+.container {
+    padding-top: 60px; /* Add padding to avoid content being hidden under the fixed header */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Style for image boxes */
+.image-box {
+    text-align: center;
+    flex: 1;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-box p {
+    margin-top: 10px;
+}

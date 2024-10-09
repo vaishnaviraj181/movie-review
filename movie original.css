@@ -1,0 +1,181 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: -5000px 0; /* Adjusted padding to move header content higher */
+    margin-bottom: -20px; 
+    
+    
+    background-image: url("https://static.toiimg.com/thumb/msid-110524570,width-1280,height-720,resizemode-4/110524570.jpg");
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 500;
+}
+
+/* Header Styles */
+header {
+    
+    color: #fff;
+    padding: -30px 0;
+    
+}
+
+header h1 {
+    display: flex;
+    margin: -20px;
+    margin-left: -20px;
+    justify-content: left;
+    text-align: left;
+    color: red;
+    font-size: 70px;
+    font-style: double;
+    -webkit-text-stroke: 2px black;
+}
+header h1:hover{
+    color: #333;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -50px;
+    text-align: right;
+    color: red;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.container{
+    margin-top: auto;
+    padding: 10px;
+}
+
+header nav ul li a {
+    left: 0px;
+    letter-spacing: 0px;
+    padding: 50;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0 20px ;
+    
+}
+
+header nav ul li a:hover {
+    color: #ff7200;
+    text-decoration: underline;
+    
+
+}
+
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.search{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    float: right;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    
+    
+}
+.srch{
+    background: transparent;
+    border: 3px solid black;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+.btn {
+    background: transparent;
+    border: 3px solid black;
+    color: whitesmoke;
+    font-size: 30px;
+    
+
+}
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 19%;
+    letter-spacing: 2px;
+}
+
+
+
+
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info h3 {
+    margin-top: 0;
+}
+
+.movie-info p {
+    font-size: 0.9em;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
